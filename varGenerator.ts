@@ -15,9 +15,20 @@ for(var i=0; i<10; i++) {
     plog(varMain[varSub]);
 }
 
-function 
+plog((varMain))
 
+var sexy = new Array(10, 20, 30, 40, 50);
+plog(sexy)
+plog(sexy.length)
+plog(sexy[0])
+plog(sexy[1])
+plog(sexy[2])
+plog(sexy[3])
+plog(sexy[4])
 
+for(var i=0; i<sexy.length; i++) {
+    sexy[i] = i;
+}
 
 //
 // var myVariable = "coco";
