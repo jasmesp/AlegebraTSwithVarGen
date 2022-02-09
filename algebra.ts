@@ -35,7 +35,8 @@ console.log(numbers);
 //console.log(arrayOfLeft.length)
 
 for (let i = 0; i < arrayOfLeft.length; i++) {
-    vargen[i] = parseInt(arrayOfLeft[i]);
+    vargen[i] = (arrayOfLeft[i]);
     console.log(arrayOfLeft[i], "SEXXXX");
     console.log(vargen, "KATYYYY");
 }
+
